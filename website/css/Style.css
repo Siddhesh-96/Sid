@@ -1,0 +1,205 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #3773b8;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #ebd6d6; */
+}
+
+header {
+    background-color: #eb8282;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #8479d8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero section */
+#hero {
+    /* background-image: url('img\img4.jpg'); */
+    /* background-size: cover; */
+    background-color: #bcbfeb;
+    color: #5cbcfc;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+#hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #fca311;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #e85d04;
+}
+
+/* Features section */
+#features {
+    background-color: #9097f7;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature img {
+    height: 200px;
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Contact section */
+#contact {
+    /* height: 200px; */
+    text-align: center;
+    padding: 60px 0;
+    background-color: #b9c8d6;
+    color: #fff;
+}
+
+/* Footer section */
+footer {
+    background-color: #f0c6c6;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Increase the width of circular images */
+.circular-image {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    width: 200px; /* Adjust the width as needed */
+    height: 200px; /* Maintain a square aspect ratio */
+}
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #5f5757;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #eeafaf;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Team section */
+#team {
+    text-align: center;
+    padding: 60px 0;
+    background-color: #493eee;
+}
+
+.team-member {
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.team-member p {
+    font-size: 16px;
+}
+
+/* Footer section */
+footer {
+    background-color: #92f1f5;
+    color: #daa7a7;
+    text-align: center;
+    padding: 10px 0;
+}
+/* Apply circular shape to images with a border */
+.circular-image {
+    border-radius: 50%; /* Makes the image circular */
+    border: 2px solid #f1dbdb; /* Adds a white border with a 2px width (customize as needed) */
+}
+
